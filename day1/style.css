@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.parent {
+    background-color: #23424a;
+    padding: 50px;
+
+    /* width: 900px; */
+    /* smaller then 900px side scrolling enable */
+    margin: 0 auto;
+    width: 80%;
+}
+/* by default values are responsive */
+/* default for block level such as div,heading,paragraph has width of 100% [100% of parent] */
+.child{
+    background-color: #38cfd9;
+    height: 250px;
+    /* width: 750px; */
+    /* works fine with bigger size
+    but will overflow on smaller size*/
+
+}
