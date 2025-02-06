@@ -4,10 +4,11 @@
 
 body{
     margin: 0;
+    background:palevioletred;
 }
 
 .parent {
-    background-color: #23424a;
+    background-color: #56bbd4;
     padding: 50px;
 
     /* width: 900px; */
@@ -18,10 +19,24 @@ body{
 /* by default values are responsive */
 /* default for block level such as div,heading,paragraph has width of 100% [100% of parent] */
 .child{
-    background-color: #38cfd9;
-    height: 250px;
+    background-color: #113b3e;
+    color: white;
     /* width: 750px; */
     /* works fine with bigger size
     but will overflow on smaller size*/
+    width: 50%;
+    /* 50% of parent */
+
+
+    /* height: 250px; */
+    /* fix height makes issue-->don't give height */
+
+    height: auto;
+    /* now its responsive */
+
+    padding: 2em;
+    /* default 2 em=16px* 
+    em->checking the size of element*/
+
 
 }
